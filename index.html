@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Count</title>
+    <!-- styles link  -->
+    <link rel="stylesheet" href="style .css">
+    <script src="app.js"></script>
+    <link id="avast_os_ext_custom_font"
+        href="chrome-extension://mbckjcfnjmoiinpgddefodcighgikkgn/common/ui/fonts/fonts.css" rel="stylesheet"
+        type="text/css">
+    <style id="ar143d401b54bstyle">
+        .ar143d401b54bhidden {
+            position: absolute !important;
+            opacity: 0 !important;
+            pointer-events: none !important
+        }
+    </style>
+</head>
+
+<body class="cursor-hover">
+
+    <header>
+        <h1 class="cursor-hover">Salary Expenses and Savings!!</h1>
+    </header>
+
+    <main class="cursor-hover">
+        <section class="container cursor-hover">
+
+            <div>
+                <img src="coin.png" alt="" class="cursor-hover">
+            </div>
+            <!-- calculation section  -->
+            <div class="calculation-container cursor-hover">
+
+                <div class="balance-container cursor-hover">
+                    <h3 class="amount-title cursor-hover">My Income</h3>
+                    <p class="inputs cursor-hover">Income <input id="income-input" type="text"></p>
+                    <h3 class="amount-title cursor-hover">Expenses</h3>
+                    <p class="inputs cursor-hover">Food <input id="food-input" type="text"></p>
+                    <p class="inputs cursor-hover">Rent <input id="rent-input" type="text"></p>
+                    <p class="inputs cursor-hover">Clothes <input id="clothes-input" type="text"></p>
+                </div>
+                <button id="calculate-btn" class="pointer-hover">Calculate</button>
+                <h2 class="cursor-hover">Total Expenses: <span id="expenses-total" class="cursor-hover">0</span></h2>
+                <h2 class="cursor-hover">Balance: <span id="balance-total">0</span></h2>
+                <!-- savings and remaining calculation section -->
+                <p class="inputs cursor-hover">Save<input id="save-input" type="text"> % <button id="save-btn"
+                        class="pointer-hover">Save</button></p>
+                <h2 class="cursor-hover">Saving Amount<span id="saving-amount">0</span></h2>
+                <h2 class="cursor-hover">Remaining Balance<span id="remaining-balance">0</span></h2>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
